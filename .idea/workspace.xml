@@ -1,29 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5a837df-6394-4a72-abb4-c64a94d84a0e" name="Changes" comment="" />
+    <list default="true" id="b5a837df-6394-4a72-abb4-c64a94d84a0e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pianotilesdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pianotilesdemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scores.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/01-black-cat_800x600_v1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/YAg6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bongocat.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/catgif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/giphy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/replay_FILL0_wght400_GRAD0_opsz24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/RandomZahlenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/RandomZahlenManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/ScoreManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/ScoreManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/scores.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/Scenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Scenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/gameover/GameOverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/gameover/GameOverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/gameover/GameOverView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/gameover/GameOverView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/gameview/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/gameview/GameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/gameview/GameViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/gameview/GameViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/howtoplay/HowToPlay.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/howtoplay/HowToPlay.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/howtoplay/HowToPlayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/howtoplay/HowToPlayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/minigame/MinispielLoesenView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/minigame/MinispielLoesenView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/minigame/MinispielLoesenViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/minigame/MinispielLoesenViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/minigame/MinispielView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/minigame/MinispielView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/minigame/MinispielViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/minigame/MinispielViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/startview/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/startview/StartView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/startview/StartViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/startview/StartViewController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2Zgg9i7RVFsbyJQPf5UWJURdfmV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "onboarding.tips.debug.path": "/Users/macbook/IdeaProjects/pianotilesdemo/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbook/IdeaProjects/pianotilesdemo copy/src/assets&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/macbook/IdeaProjects/pianotilesdemo/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;CSS&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/presentation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/songs" />
+      <recent name="$PROJECT_DIR$/src/presentation/startview" />
+      <recent name="$PROJECT_DIR$/src/presentation/gameover" />
+      <recent name="$PROJECT_DIR$/src/presentation/howtoplay" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="business" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <module name="pianotilesdemo" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Documents/javafx-sdk-21.0.1/lib  --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,15 +122,23 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/business/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pianotilesdemo$Main.ic" NAME="Main Coverage Results" MODIFIED="1702850018253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>presentation.*</FILTER>
+    </SUITE>
   </component>
 </project>

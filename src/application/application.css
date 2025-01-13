@@ -1,0 +1,18 @@
+#replayButton{
+-fx-min-width: 32;
+  -fx-min-height: 32;
+  -fx-background-color: transparent;
+  -fx-background-repeat: no-repeat no-repeat;
+  -fx-background-size: 28 28;
+  -fx-background-position: center;
+-fx-background-image: url("/assets/replayButton.png")
+}
+#pauseButton{
+-fx-min-width: 32;
+  -fx-min-height: 32;
+  -fx-background-color: transparent;
+  -fx-background-repeat: no-repeat no-repeat;
+  -fx-background-size: 28 28;
+  -fx-background-position: center;
+-fx-background-image: url("/assets/pause.jpg")
+}

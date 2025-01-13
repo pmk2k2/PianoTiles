@@ -1,4 +1,4 @@
-package presentation;
+package presentation.minigame;
 
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
@@ -13,6 +13,12 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 
+/**
+
+ @author    Hilal Yazici, My Khanh Phan, Souman Qadeer und Zonera Iqbal
+ Hier werden ebenfalls die UI-Komponente erstellet. Dabei werden hier die
+ bereits zufällig bestimmten Zahlen angezeigt.
+ **/
 public class MinispielView extends BorderPane {
     public BorderPane pane;
     public Button katzebutton1;
@@ -28,16 +34,16 @@ public class MinispielView extends BorderPane {
     public MinispielView() {
         introduction = new Label("Minigame");
         introduction.setAlignment(Pos.TOP_CENTER);
-        introduction.setFont(Font.font("Comic Sans MS", 20));
+        introduction.setFont(Font.font("Lucky Coin", 25));
 
-        merken= new Label(" Remember: ");
+        merken= new Label(" Remember the number of the picture!");
         merken.setAlignment(Pos.CENTER);
-        merken.setFont(Font.font("Comic Sans MS", 16));
+        merken.setFont(Font.font("Lucky Coin", 20));
 
         // Bilder laden
-        Image bild1 = new Image("assets/angrycat.jpg");
-        Image bild2 = new Image("assets/bored_cat.jpg");
-        Image bild3 = new Image("assets/happycat.jpg");
+        Image bild1 = new Image("assets/Herunterladen.gif");
+        Image bild2 = new Image("assets/Herunterladen_1.gif");
+        Image bild3 = new Image("assets/oie_10114957TQmmJiB2.gif");
 
         sehenbild1 = new ImageView(bild1);
         sehenbild1.setFitHeight(100);
@@ -60,17 +66,17 @@ public class MinispielView extends BorderPane {
 
         katzebutton1 = new Button();
         katzebutton1.setPrefSize(50,50);
-        katzebutton1.setStyle("-fx-background-color: #F08080;-fx-border-color: black; -fx-border-width: 3;"); // LightCoral
+        katzebutton1.setStyle("-fx-background-color: #ffb566;-fx-border-color: black; -fx-border-width: 3;"); // LightCoral
 
 
         katzebutton2 = new Button();
         katzebutton2.setPrefSize(50,50);
-        katzebutton2.setStyle("-fx-background-color: #F08080;-fx-border-color: black; -fx-border-width: 3;"); // LightCoral
+        katzebutton2.setStyle("-fx-background-color: #ffb566;-fx-border-color: black; -fx-border-width: 3;"); // LightCoral
 
 
         katzebutton3 = new Button();
         katzebutton3.setPrefSize(50,50);
-        katzebutton3.setStyle("-fx-background-color: #F08080;-fx-border-color: black; -fx-border-width: 3;"); // LightCoral
+        katzebutton3.setStyle("-fx-background-color: #ffb566;-fx-border-color: black; -fx-border-width: 3;"); // LightCoral
 
 
         // Layout erstellen und Buttons hinzufÃ¼gen
@@ -81,8 +87,8 @@ public class MinispielView extends BorderPane {
         ok= new Button("OK");
         ok.setAlignment(Pos.CENTER);
         ok.setPrefSize(80,30);
-        ok.setFont(Font.font("Comic Sans MS", 15));
-        ok.setStyle("-fx-background-color: lightgreen;-fx-border-color: black; -fx-border-width: 3;");
+        ok.setFont(Font.font("Lucky Coin", 15));
+        ok.setStyle("-fx-background-color:#ffb566 ;-fx-border-color: black; -fx-border-width: 3;");
 
         VBox ganzespiel= new VBox(introduction,merken, bilderreihe, buttons,ok);
         ganzespiel.setAlignment(Pos.CENTER);
@@ -94,7 +100,6 @@ public class MinispielView extends BorderPane {
 
         this.getChildren().add(ganzespiel);
         pane=new BorderPane(ganzespiel);
-//        pane.getStyleClass().add("playerClass");
 
         setCenter(pane);
     }

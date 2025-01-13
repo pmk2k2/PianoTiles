@@ -8,18 +8,18 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="400.0" style="-fx-background-color:#cceeff ;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="27.0" prefWidth="164.0" text="GAME OVER" textAlignment="CENTER">
          <font>
-            <Font name="Deluxe" size="24.0" />
+            <Font name="Lucky Coin" size="24.0" />
          </font>
          <padding>
             <Insets bottom="50.0" />
          </padding></Label>
       <ImageView fitHeight="193.0" fitWidth="222.0">
          <image>
-            <Image url="@../assets/cat-farsi-sad.gif" />
+            <Image url="@/assets/cat-farsi-sad.gif" />
          </image>
          <VBox.margin>
             <Insets bottom="50.0" />
@@ -27,18 +27,18 @@
       </ImageView>
       <Label fx:id="scoreLabel" text="Your score: ">
          <font>
-            <Font name="DejaVu Sans Bold" size="16.0" />
+            <Font name="Lucky Coin" size="16.0" />
          </font></Label>
       <Label fx:id="highScoreLabel" alignment="CENTER" contentDisplay="CENTER" text="Highest score: ">
          <font>
-            <Font name="DejaVu Sans Bold" size="16.0" />
+            <Font name="Lucky Coin" size="16.0" />
          </font>
          <VBox.margin>
             <Insets bottom="30.0" />
          </VBox.margin></Label>
       <Label text="Better luck next time !">
          <font>
-            <Font name="DejaVu Sans Bold" size="13.0" />
+            <Font name="Lucky Coin" size="13.0" />
          </font>
          <VBox.margin>
             <Insets bottom="10.0" />

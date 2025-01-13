@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
 
-</AnchorPane>
+<StackPane alignment="CENTER" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1"><!-- Hintergrundbild -->
+    <ImageView fitHeight="700.0" fitWidth="560.0">
+        <Image url="@/assets/howTo_Back.jpeg"/>
+    </ImageView>
+
+    <VBox alignment="CENTER" spacing="20">
+        <children>
+            <Label style="-fx-font-family: 'Lucky Coin'; -fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #5C833D;" text="How To Play" />
+            <ImageView fitHeight="112.0" fitWidth="110.0">
+                <image>
+                    <Image url="@/assets/huh.gif"/>
+                </image>
+            </ImageView>
+            <Label style="-fx-font-family: 'Tahoma'; -fx-font-size: 14px; -fx-text-fill: black;" text="1. Click on the black tiles to play the notes." />
+            <Label style="-fx-font-family:'Tahoma'; -fx-font-size: 14px; -fx-text-fill: black;" text="2.When you click on the pink tiles, you will get bonus scores. Don't worry if you miss a pink tile, nothing gonna happen" wrapText="true"/>
+            <Label style="-fx-font-family:'Tahoma'; -fx-font-size: 14px; -fx-text-fill: black;" text="Minigame: You have to memorize the numbers of the pictures well at the beginning, because they are your key if you lose. If you miss a tile, you have the opportunity to save yourself again with the memorized numbers." wrapText="true"/>
+
+            <Button fx:id="backButton" text="Back" style="-fx-background-color:#F5F5DC;-fx-font-size: 18px; -fx-text-fill:#5C833D; -fx-font-family: 'Lucky Coin';" />
+
+
+        </children>
+        <padding>
+            <Insets bottom="50" left="50" right="50" top="50" />
+        </padding>
+    </VBox>
+</StackPane>
